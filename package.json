@@ -1,0 +1,18 @@
+{
+  "name": "atom-underscore-string",
+  "main": "./lib/atom-underscore-string",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Underscore.string utils for the Atom editor",
+  "activationCommands": {
+    "atom-workspace": "atom-underscore-string:toggle"
+  },
+  "repository": "https://github.com/atom/atom-underscore-string",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "underscore.string": "^3.0.3"
+  }
+}

@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle atom-underscore-string'
+      'command': 'atom-underscore-string:dasherize'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-underscore-string'
+      'submenu': [
+        {
+          'label': 'Dasherize'
+          'command': 'atom-underscore-string:dasherize'
+        }
+      ]
+    ]
+  }
+]
